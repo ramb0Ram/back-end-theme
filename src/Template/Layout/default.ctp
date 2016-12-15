@@ -10,7 +10,7 @@ use Cake\Core\Configure;
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="icon" href="../../favicon.ico">
-        <title><?= Configure::read('Project.name')." ".$this->fetch('title') ?></title>
+        <title><?= Configure::read('Project.titleLayout')." ".$this->fetch('title') ?></title>
         <?= $this->element('load_top'); ?>
     </head>
     <body>
