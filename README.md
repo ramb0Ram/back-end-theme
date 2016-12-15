@@ -2,10 +2,8 @@
 
 ## Installation
 
-You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).
-
-The recommended way to install composer packages is:
-
+After install Cakephp 3, go to plugin and clone the project
 ```
-composer require your-name-here/BackEndTheme
+git clone git@github.com:ramb0Ram/back-end-theme.git BackEndTheme
 ```
+Load on bootstrap.php
